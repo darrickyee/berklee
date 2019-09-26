@@ -12,7 +12,7 @@ program define predictcat
 	}
 
 	quietly {
-		predict `1'_p* if e(sample)
+		predict `1'_p*
 		
 		desc `1'_p*, varlist
 		local wc: word count `r(varlist)'
