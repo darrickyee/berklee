@@ -1,5 +1,5 @@
 clear all
-global DataFile "D:\Projects\Berklee\data\Berklee Audition and Ensemble Data vF.dta"
+global DataFile "..\data\Berklee Audition and Ensemble Data vF.dta"
 global Predictors "audition_preparedpiece audition_reading audition_improv audition_melodic audition_rhythmic audition_score scholarship_rating"
 
 use "$DataFile", clear
