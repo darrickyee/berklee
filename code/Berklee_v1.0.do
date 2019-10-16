@@ -11,7 +11,6 @@ global Outcome "y_ensemble"
 
 kapwgt exact 1 \ 0 1 \ 0 0 1 \ 0 0 0 1 \ 0 0 0 0 1 \ 0 0 0 0 0 1
 kapwgt within1 1 \ 1 1 \ 0 1 1 \ 0 0 1 1 \ 0 0 0 1 1 \ 0 0 0 0 1 1
-kapwgt with5 1 \ .5 1 \ 0 .5 1 \ 0 0 .5 1 \ 0 0 0 .5 1 \ 0 0 0 0 .5 1
 global kapweight "exact"
 
 /* Clean & recode data */
